@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: yellow;
+    
+}
+
+.container{
+    width: 30%;
+    margin: auto;
+    height: 100%;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+legend{
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+fieldset{
+    border: black solid 1px;
+    border-radius: 8px;
+    margin: 10px;
+    
+}
+input{
+    background-color: rgba(250, 249, 231, 0);
+    color: rgb(8, 1, 1);
+    border: radius 6px; 
+}
+.button{
+    background-color: rgb(18, 209, 28);
+    padding: 5px 15px;
+    color: white;
+}
+.buttondiv{
+    border: none;
+    text-align: center;
+    
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <title>register</title>
+</head>
+<body>
+<form action="done.html">
+    <div class="container">
+        <legend>join now</legend>
+        <fieldset>
+            <label for="name">First Name : </label>
+            <input type="text" id="name" placeholder="ahmed">
+        </fieldset>
+        <fieldset>
+            <label for="last">Last Name :</label>
+            <input type="text" id="last" placeholder="fathi">
+        </fieldset>
+        <fieldset>
+            <label for="pass">Password : </label>
+            <input type="password" id="pass">
+        </fieldset>
+        <fieldset>
+            <label for="repass">Repeat-Password : </label>
+            <input type="password" id="repass">
+        </fieldset>
+        <fieldset>
+            <label for="email">E-mail : </label>
+            <input type="email" required id="email">
+        </fieldset>
+        <fieldset>
+            <label for="gender">Gender</label>
+            <fieldset>
+                <input type="radio" id="male" name="a">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="a">
+                <label for="female" >female</label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <label for="birth">Bithdate</label>
+            <input type="date" id="birth">
+        </fieldset>
+        <fieldset>
+            <label>sports</label>
+            <fieldset>
+                <input type="checkbox" id="football">
+                <label for="football">football</label> <br>
+                <input type="checkbox" id="tennis">
+                <label for="tennis">tennis</label> <br>
+                <input type="checkbox" id="Swimming">
+                <label for="Swimming">Swimming</label> <br>
+                <input type="checkbox" id="basket">
+                <label for="basket">basketball</label>
+    
+            </fieldset>
+        </fieldset>
+    
+        <fieldset>
+            <label >Select city</label>
+            <select >
+                <option disabled selected >select </option>
+                <optgroup>
+                    <option >cairo</option>
+                    <option >Giza</option>
+                    <option >Alex</option>
+                </optgroup>
+            </select>
+    
+        </fieldset>
+        <fieldset class="buttondiv">
+            <input class="button" type="submit" value="send" >
+            <input class="button"type="reset" value="reset">
+        </fieldset>
+    </div>
+
+</form>
+</body>
+</html>
